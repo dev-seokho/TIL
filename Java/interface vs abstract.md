@@ -109,7 +109,5 @@ static, final 메소드 사용 가능 여부의 차이
 
 
 프로그래밍에서 상태는 변화하기 때문에 버그를 많이 주입합니다.
-
 그렇기 때문에 상태 변경의 가능여부로 interface, abstract를 사용 기준점을 잡을 수 있습니다.
-
 완벽한 is-a 관계가 아니라면 abstract 보다는 interface, default method 를 활용합니다.
