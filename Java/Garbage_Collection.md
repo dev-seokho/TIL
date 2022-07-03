@@ -16,7 +16,7 @@ GC는 이렇게 unreachable 객체를 대상으로 합니다.
 
 # GC root set
 
-# young 영역에 survivor이 2개로 구성되어 있는 이유
+# young 영역에 Survivor이 2개로 구성되어 있는 이유
 
 Young 영역은 1개의 Eden 과 2개의 Survivor로 나누어져 있습니다.
 Eden은 1개이지만 Survivor가 2개인 이유는 **Minor GC가 Eden 뿐만이 아니라 Survivor 영역 또한 대상으로 하기 때문**입니다.
