@@ -12,4 +12,4 @@
 * [toString() 을 재정의 해야 하는 이유와 객체에 toString() 함수를 사용했을 때 이상한 코드가 나오는 이유](https://github.com/dev-seokho/TIL/blob/master/Java/toString_method.md)
 
 ## Algorithm
-* [Two Sum]((https://github.com/dev-seokho/TIL/blob/master/Algorithm/Two_Sum.md))
+* [Two Sum](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Two_Sum.md)
