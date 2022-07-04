@@ -14,8 +14,6 @@ GC는 Heap 영역에 존재하는 unreachable(아무것도 참조하지 않고 �
 GC는 이렇게 unreachable 객체를 대상으로 합니다.
 이렇게 객체가 Garbage 인지 아닌지 판별하는 개념을 **reachability** 라고 합니다.
 
-# GC root set
-
 # young 영역에 Survivor이 2개로 구성되어 있는 이유
 
 Young 영역은 1개의 Eden 과 2개의 Survivor로 나누어져 있습니다.
