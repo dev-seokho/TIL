@@ -51,7 +51,7 @@ hashCode란 **객체를 구분하기 위한 정수값**입니다. (메모리 상
 하지만 hashCode는 오버라이딩 전에 객체의 메모리 번지로 해시코드를 만들기 때문에 동등한 객체여도 hash값이 다릅니다.
 HashSet, Hashmap, HashTable 같은 Hash 컬렉션은 다음과 같은 알고리즘을 동등한 객체인지 판별합니다.
 
-![](../img/hasscode_overriding.png)
+![](../img/hashcode_overriding.png)
 
 hashCode()의 리턴 값이 오버라이딩 전에는 다르기 때문에 equals를 판별하기 전에 다른 객체라고 단정짓게 됩니다.
 그렇기 때문에 hashCode()에서 동등한 객체라면 같은 해시값을 리턴하도록 오버라이딩 해주어야합니다.
