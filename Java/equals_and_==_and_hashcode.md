@@ -1,6 +1,6 @@
 # Java에서 == 와 equals의 차이점 그리고 equals를 재선언할 때 hashcode도 재선언해야하는 이유
 
-### == vs equals
+## == vs equals
 - ==
     `==` 연산자는 **동일성 비교**입니다. 객체 인스턴스의 주소값을 비교합니다.
     primitive data type의 경우 ==를 통해 값 비교가 가능합니다.
@@ -16,7 +16,7 @@
     `equals()` 메소드는 **동등성 비교** 입니다.
     객체 내부의 실제 값을 비교합니다.
 
-### equals는 왜 재정의 해야하고 equals를 재정의하면 왜 hashcode 도 재정의해야할까요?
+## equals는 왜 재정의 해야하고 equals를 재정의하면 왜 hashcode 도 재정의해야할까요?
 
 ✅ **equals 를 오버라이딩 해야하는 이유는?**
 
@@ -51,7 +51,7 @@ hashCode란 **객체를 구분하기 위한 정수값**입니다. (메모리 상
 하지만 hashCode는 오버라이딩 전에 객체의 메모리 번지로 해시코드를 만들기 때문에 동등한 객체여도 hash값이 다릅니다.
 HashSet, Hashmap, HashTable 같은 Hash 컬렉션은 다음과 같은 알고리즘을 동등한 객체인지 판별합니다.
 
-![스크린샷 2022-07-05 오후 8.00.13.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/53a8c131-3415-4273-93da-a6129e9097dc/스크린샷_2022-07-05_오후_8.00.13.png)
+![](../img/hasscode_overriding.png)
 
 hashCode()의 리턴 값이 오버라이딩 전에는 다르기 때문에 equals를 판별하기 전에 다른 객체라고 단정짓게 됩니다.
 그렇기 때문에 hashCode()에서 동등한 객체라면 같은 해시값을 리턴하도록 오버라이딩 해주어야합니다.
