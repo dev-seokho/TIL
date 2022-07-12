@@ -1,7 +1,6 @@
 # Today I Learned Wiki
 
 ## JAVA
-* [Big-O 표기법이란?](https://github.com/dev-seokho/TIL/blob/master/Java/Big-O_notation.md)
 * [Class variable 과 Instance variable 차이점](https://github.com/dev-seokho/TIL/blob/master/Java/Class_variable_vs_Instance_variable.md)
 * [Garbage Collection](https://github.com/dev-seokho/TIL/blob/master/Java/Garbage_Collection.md)
 * [HashMap과 해시 충돌](https://github.com/dev-seokho/TIL/blob/master/Java/HashMap.md)
@@ -17,3 +16,6 @@
 
 ## Algorithm
 * [Two Sum](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Two_Sum.md)
+
+## Etc
+* [Big-O 표기법이란?](https://github.com/dev-seokho/TIL/blob/master/Etc/Big-O_notation.md)
