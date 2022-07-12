@@ -100,4 +100,54 @@ Java 기반의 서비스에서 GC의 Young, Old 영역에 대한 비중 튜닝�
 
 # GC의 종류
 
-# JAVA8 default GC
+### ✅ Serial GC
+적은 메모리와 CPU 코어 개수가 적을 때 적합한 방식입니다.
+**운영 서버에서 절대 사용하면 안되는 방식**인데, 데스크톱 CPU 코어가 하나만 있을 때 사용하기 위해서 만든 방식이기 때문에 Serial GC를 사용하면 애플리케이션의 성능이 많이 떨어집니다.
+
+사용하는 알고리즘은 mark(객체식별)-sweap(살아있는 객체 남기기)-compaction(앞부분 부터 객체를 연속적으로 다시 쌓기) 방법 입니다.
+
+**32비트 JVM** 에서 돌아가는 싱글쓰레드 어플리케이션에서 사용합니다.
+**Minor GC와 Major GC**가 일어날 때 올스탑(Stop the world) 합니다.
+**싱글쓰레드** 방식입니다.
+
+### ✅ Parallel GC(Throughput Garbage Collector)
+
+Serial GC와는 다르게 메모리가 충분하고 코어의 개수가 많을 때 유리한 GC 입니다.
+
+Serial GC 와 기본적인 알고리즘은 같습니다. 하지만 처리하는 쓰레드가 멀티쓰레드이기 때문에 Serial GC보다 빠르게 객체를 처리할 수 있습니다.
+
+**64비트 JVM** 이나 **멀티 CPU** 유닉스 머신에서 기본 GC로 설정되어 있습니다.
+**Minor GC와 Major GC**가 일어날 때 올스탑(Stop the world) 합니다.
+멀티**쓰레드** 방식입니다.
+
+### ✅ Parallel Old GC
+
+JDK 5 update 6부터 제공한 GC방식인데, Parallel GC와 비교했을 때, Old 영역의 알고리즘이 다릅니다.
+
+사용하는 알고리즘은 mark(객체식별)-summary(GC 수행 영역에서 별도로 살아있는 객체를 식별)-compaction(앞부분 부터 객체를 연속적으로 다시 쌓기) 방법 입니다.
+
+### ✅ CMS GC(Concurrent Mark-Sweep GC, Low Latency GC)
+
+Stop the world 시간이 매우 짧은 GC입니다. 모든 애플리케이션의 응답 속도가 매우 중요할 때 CMS GC를 사용합니다.
+
+**Initial Mark** 단계에서 참조 상태인 객체를 짧은 시간에 Marking 후, 올스탑 없이 **Concurrent Mark** 단계에서 참조상태 객체를 확인합니다.
+
+**Remark** 단계에서 변경되거나 추가된 객체를 확인하고, **Concurrent Sweep** 단계에서 참조 되지 않는 객체를 정리합니다.
+
+메모리와 CPU 리소스를 많이 사용하는 것이 단점입니다.
+Compaction 단계가 기본적으로 제공되지 않아서 메모리 파편화가 일어나는 것도 단점입니다. 직접 Compaction을 수행해주어야합니다.
+
+### ✅ G1 GC(Garbage First)
+
+CMS GC의 단점을 보완하고 대체하기 위해 만들어진 GC 입니다.
+
+Young, Old 영역을 물리적으로 나누지 않고 Heap 영역에 Resion 이라는 논리적 단위로 나누어서 리하는 개념을 도입했습니다.
+하나 이상의 Resion 에서 객체를 복사해 다른 Resion 으로 이동 시키는 방식입니다.
+
+CMS와 비슷한 방식으로 동작을 시작하고, **Heap 영역에 전역적으로 Making** 한 뒤, 가장 많은 공간이 있는 곳 부터 메모리 회수를 진행합니다.
+
+이 때문에 Garbage First 라는 이름이 붙었습니다.
+
+CMS Collector의 CPU 리소스 및 메모리 파편화의 단점을 해결하였습니다.
+
+단점은 적은 Heap 공간을 가지는 Application 에서는 제 성능을 발휘하지 못하고 Full GC가 발생한다는 점.
