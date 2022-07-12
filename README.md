@@ -12,7 +12,7 @@
 * [LinkedList_vs_ArrayList](https://github.com/dev-seokho/TIL/blob/master/Java/LinkedList_vs_ArrayList.md)
 
 ## Network
-[Rest API](https://github.com/dev-seokho/TIL/blob/master/Network/Rest_API.md)
+* [Rest API](https://github.com/dev-seokho/TIL/blob/master/Network/Rest_API.md)
 
 ## Algorithm
 * [Two Sum](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Two_Sum.md)
