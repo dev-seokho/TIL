@@ -53,5 +53,4 @@ LinkedList는 데이터를 추가하거나 삭제할 때 앞과 뒤쪽 노드의
 동적으로 추가/삭제 요구사항이 빈번하다면 LinkedList를 사용하는 것이 유용합니다.
 
 ### 시간 복잡도
-    
-    ![스크린샷 2022-07-13 오후 4.47.31.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/41eaa25b-46aa-47d0-93e9-d8482cd24e7e/스크린샷_2022-07-13_오후_4.47.31.png)
+![ArrayList_LinkedList](./img/ArrayList_LinkedList)
