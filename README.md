@@ -13,6 +13,7 @@
 
 ## Network
 * [REST API](https://github.com/dev-seokho/TIL/blob/master/Network/Rest_API.md)
+* [HTTP method](https://github.com/dev-seokho/TIL/blob/master/Network/HTTP_method.md)
 
 ## Algorithm
 * [Two Sum](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Two_Sum.md)
