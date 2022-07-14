@@ -31,7 +31,7 @@ LinkedList가 보완하고자 했던 배열의 단점은 이러합니다.
 
 LinkedList는 데이터를 추가하거나 삭제할 때 앞과 뒤쪽 노드의 주소값만 바꿔주면서 이를 보완했습니다.
 
-### ArrayList vs LinkedList
+### ✅ ArrayList vs LinkedList
 
 - **성능 차이**
 
@@ -52,5 +52,4 @@ LinkedList는 데이터를 추가하거나 삭제할 때 앞과 뒤쪽 노드의
 정적인 데이터를 활용하면서 조회가 빈번하다면 ArrayList를,
 동적으로 추가/삭제 요구사항이 빈번하다면 LinkedList를 사용하는 것이 유용합니다.
 
-### 시간 복잡도
-![ArrayList_LinkedList](./img/ArrayList_LinkedList)
+![ArrayList_LinkedList](./img/ArrayList_LinkedList.png)
