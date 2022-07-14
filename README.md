@@ -1,6 +1,7 @@
 # Today I Learned Wiki
 
 ## JAVA
+* [ArrayList vs LinkedList](https://github.com/dev-seokho/TIL/blob/master/Java/ArrayList_vs_LinkedList.md)
 * [Class variable 과 Instance variable 차이점](https://github.com/dev-seokho/TIL/blob/master/Java/Class_variable_vs_Instance_variable.md)
 * [Garbage Collection](https://github.com/dev-seokho/TIL/blob/master/Java/Garbage_Collection.md)
 * [HashMap과 해시 충돌](https://github.com/dev-seokho/TIL/blob/master/Java/HashMap.md)
@@ -9,7 +10,6 @@
 * [Java8 이후 interface vs abstract 차이, 선택의 기준](https://github.com/dev-seokho/TIL/blob/master/Java/interface_vs_abstract.md)
 * [String constant pool](https://github.com/dev-seokho/TIL/blob/master/Java/String_constant_pool.md)
 * [toString() 을 재정의 해야 하는 이유와 객체에 toString() 함수를 사용했을 때 이상한 코드가 나오는 이유](https://github.com/dev-seokho/TIL/blob/master/Java/toString_method.md)
-* [LinkedList_vs_ArrayList](https://github.com/dev-seokho/TIL/blob/master/Java/LinkedList_vs_ArrayList.md)
 
 ## Network
 * [REST API](https://github.com/dev-seokho/TIL/blob/master/Network/Rest_API.md)
