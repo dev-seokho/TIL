@@ -16,7 +16,7 @@
 * [HTTP method](https://github.com/dev-seokho/TIL/blob/master/Network/HTTP_method.md)
 
 ## Algorithm
-* [Two Sum](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Two_Sum.md)
+* [Two Sum](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Leetcode/Two_Sum.md)
 
 ## Etc
 * [Big-O 표기법이란?](https://github.com/dev-seokho/TIL/blob/master/Etc/Big-O_notation.md)
