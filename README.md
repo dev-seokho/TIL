@@ -17,7 +17,10 @@
 * [HTTP method](https://github.com/dev-seokho/TIL/blob/master/Network/HTTP_method.md)
 
 ## Algorithm
+### Leetcode
 * [Two Sum](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Leetcode/Two_Sum.md)
+### Study
+* [문자 찾기](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/Find_letters.md)
 
 ## Etc
 * [Big-O 표기법이란?](https://github.com/dev-seokho/TIL/blob/master/Etc/Big-O_notation.md)
