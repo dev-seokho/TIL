@@ -70,8 +70,6 @@ public class Main {
 String객체를 모두 대문자를 바꾸려면 .toUpperCase()를 사용하면 된다.
 Primitive type인 char를 대문자로 바꾸려면 Character.toUpperCase(변수) 를 사용하면 된다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc5babf1-6454-49c3-ac90-9ca9da7626ec/Untitled.png)
-
 - .charAt(index)
 
 Scanner객차로 받은 String을 char형으로 가져오고 싶을 때.
