@@ -20,7 +20,8 @@
 ### Leetcode
 * [Two Sum](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Leetcode/Two_Sum.md)
 ### Study
-* [문자 찾기](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/Find_letters.md)
+* [문자 찾기](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/1_Find_letters.md)
+* [대소문자 변환](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/2_Case_conversion.md)
 
 ## Etc
 * [Big-O 표기법이란?](https://github.com/dev-seokho/TIL/blob/master/Etc/Big-O_notation.md)
