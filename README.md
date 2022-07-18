@@ -11,6 +11,7 @@
 * [Java Reflection API](https://github.com/dev-seokho/TIL/blob/master/Java/Java_Reflection_API.md)
 * [String constant pool](https://github.com/dev-seokho/TIL/blob/master/Java/String_constant_pool.md)
 * [toString() 을 재정의 해야 하는 이유와 객체에 toString() 함수를 사용했을 때 이상한 코드가 나오는 이유](https://github.com/dev-seokho/TIL/blob/master/Java/toString_method.md)
+* [Java에서 java.util.Stack 이 잘못된 디자인이라고 하는 이유](https://github.com/dev-seokho/TIL/blob/master/Java/Java_Stack.md)
 
 ## Network
 * [REST API](https://github.com/dev-seokho/TIL/blob/master/Network/Rest_API.md)
