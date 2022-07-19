@@ -15,7 +15,7 @@
 
 ## Network
 * [REST API](https://github.com/dev-seokho/TIL/blob/master/Network/Rest_API.md)
-* [HTTP method](https://github.com/dev-seokho/TIL/blob/master/Network/HTTP_method.md)
+* [HTTP 메소드 종류, 특징, 멱등성, 안전한메소드](https://github.com/dev-seokho/TIL/blob/master/Network/HTTP_method.md)
 
 ## Algorithm
 ### Leetcode
