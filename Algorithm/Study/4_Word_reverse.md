@@ -146,8 +146,10 @@ class Main {
 ## 배운점
 
 - StringBuilder
-String을 뒤집을 때는 StringBuilder의 .reverse()를 사용할 수 있다.
+
+String을 뒤집을 때는 StringBuilder의 .reverse()를 사용할 수 있다.  
 ex) `new StringBuilder(x).reverse().toString();`
 
 - 직접 뒤집기
+
 배열을 나열했을 때, 대칭되는 것들끼리 교환해주는 방법으로 직접 reverse 시킬 수 있다.

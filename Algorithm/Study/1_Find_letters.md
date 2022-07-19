@@ -60,7 +60,7 @@ public class Main {
 
 - 전위 연산자, 후위 연산자
 
-전위연산자는 다른 연산자를 처리 후에 ++을 처리
+전위연산자는 다른 연산자를 처리 후에 ++을 처리     
 후위연산자는 ++을 처리 후에 다른 연산자를 처리
 
 - Scanner
@@ -69,7 +69,7 @@ public class Main {
 
 - toUpperCase()
 
-String객체를 모두 대문자를 바꾸려면 .toUpperCase()를 사용하면 된다.
+String객체를 모두 대문자를 바꾸려면 .toUpperCase()를 사용하면 된다.     
 Primitive type인 char를 대문자로 바꾸려면 Character.toUpperCase(변수) 를 사용하면 된다.
 
 - .charAt(index)

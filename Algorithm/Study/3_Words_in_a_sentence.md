@@ -84,13 +84,17 @@ public class Main {
 ## 배운점
 
 - Scanner nextLine();
+
 Scanner에서 공백을 포함한 한 줄을 받아들이고 싶으면 `{Scanner}.next();` 가 아닌 `{Scanner}.nextLine();`을 해주어야 한다.
 
 - split();
+
 String 객체에 `split();` 을 사용해서 원하는 단어를 기준으로 slice 하고 값을 배열로 받아볼 수 있다.
 
 - indexOf();
+
 String 객체에 `indexOf();` 를 사용해서 원하는 값의 index를 가져올 수 있다. 만약 해당 값이 없다면 **-1을 return 한다.**
 
 - subString();
+
 String 객체의 index와 subString을 사용해서 String 객체를 slice 할 수 있다.
