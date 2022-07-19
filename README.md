@@ -17,6 +17,9 @@
 * [REST API](https://github.com/dev-seokho/TIL/blob/master/Network/Rest_API.md)
 * [HTTP 메소드 종류, 특징, 멱등성, 안전한메소드](https://github.com/dev-seokho/TIL/blob/master/Network/HTTP_method.md)
 
+## Etc
+* [Big-O 표기법이란?](https://github.com/dev-seokho/TIL/blob/master/Etc/Big-O_notation.md)
+
 ## Algorithm
 ### Leetcode
 * [Two Sum](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Leetcode/Two_Sum.md)
@@ -24,6 +27,4 @@
 * [문자 찾기](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/1_Find_letters.md)
 * [대소문자 변환](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/2_Case_conversion.md)
 * [문장 속 단어](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/3_Words_in_a_sentence.md)
-
-## Etc
-* [Big-O 표기법이란?](https://github.com/dev-seokho/TIL/blob/master/Etc/Big-O_notation.md)
+* [단어 뒤집기](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/4_Word_reverse.md)
