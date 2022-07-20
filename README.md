@@ -28,3 +28,4 @@
 * [대소문자 변환](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/2_Case_conversion.md)
 * [문장 속 단어](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/3_Words_in_a_sentence.md)
 * [단어 뒤집기](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/4_Word_reverse.md)
+* [특정 문자 뒤집기](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/5_Reverse_specific_character.md)
