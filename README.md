@@ -35,3 +35,4 @@
 * [회문 문자열](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/7_Palindrome.md)
 * [유효한 팰린드롬](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/8_Valid_palindrome.md)
 * [숫자만 추출](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/9_Extract_only_numbers.md)
+* [가장 짧은 문자거리](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/10_Shortest_text_distance.md)
