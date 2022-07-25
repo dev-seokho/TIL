@@ -23,16 +23,4 @@
 * [Big-O 표기법이란?](https://github.com/dev-seokho/TIL/blob/master/Etc/Big-O_notation.md)
 
 ## Algorithm
-### Leetcode
-* [Two Sum](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Leetcode/Two_Sum.md)
-### Study
-* [문자 찾기](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/1_Find_letters.md)
-* [대소문자 변환](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/2_Case_conversion.md)
-* [문장 속 단어](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/3_Words_in_a_sentence.md)
-* [단어 뒤집기](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/4_Word_reverse.md)
-* [특정 문자 뒤집기](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/5_Reverse_specific_character.md)
-* [중복 문자 제거](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/6_Remove_duplicate_characters.md)
-* [회문 문자열](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/7_Palindrome.md)
-* [유효한 팰린드롬](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/8_Valid_palindrome.md)
-* [숫자만 추출](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/9_Extract_only_numbers.md)
-* [가장 짧은 문자거리](https://github.com/dev-seokho/TIL/blob/master/Algorithm/Study/10_Shortest_text_distance.md)
+* [Algorithm Study Repository](https://github.com/dev-seokho/Algorithm)
