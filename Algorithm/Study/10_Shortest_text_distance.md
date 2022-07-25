@@ -67,7 +67,7 @@ public class Main{
 }
 ```
 
-## 선생님의 풀이 (왼쪽부터 읽고, 그 다음 오른쪽으로 읽기)
+## 다른 풀이 (왼쪽부터 읽고, 그 다음 오른쪽으로 읽기)
 
 ```jsx
 import java.util.Scanner;
