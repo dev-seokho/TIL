@@ -49,24 +49,24 @@ interface의 모든 멤버 변수는 public static final 이기 때문에, 상�
 
 또 다른 차이점들을 알아보겠습니다.
 
-존재 목적의 차이
+✅ **존재 목적의 차이**
 
 - interface - 메소드의 구현을 강제, 약속하기 위해서 존재합니다. 구현을 강제함으로써 구현 객체의 같은 동작을 보장할 수 있습니다.
 - abstract - 추상 클래스를 클래스가 상속 받아서 필요한 기능들을 이용하고, 확장시키는데 목적이 있습니다.
 
-구현 방법의 차이
+✅ **구현 방법의 차이**
 
 - interface - 선언부를 `public inteface` 로 정의합니다.
 - abstract - 선언부를 `public abstract class` 로 정의합니다.
 
-선언 방법, 다중상속의 차이
+✅ **선언 방법, 다중상속의 차이**
 
 - interface - 클래스 이름 뒤에 `implements(구현하다)` 예약어를 활용해서 선언합니다.
 interface는 다중상속이 가능합니다.
 - abstract - 클래스 이름 뒤에 `extents(확장하다)` 예약어를 활용해서 선언합니다.
 그렇기 때문에 abstract는 다중상속이 불가능합니다.
 
-내부 메소드의 성질의 차이
+✅ **내부 메소드의 성질의 차이**
 
 - interface - interface 내부에 생성된 메소드들은 몸통(body)이 있으면 안됩니다.
 한마디로 메소드들이 모조리 추상메소드여야 합니다. 
@@ -75,17 +75,17 @@ interface는 다중상속이 가능합니다.
 내부에 abstract로 선언된 메소드가 0개 이상 있으면 그 클래스는 반드시 abstract로 선언되어야 합니다.
 abstract class는 추상메소드 + 일반메소드로 이루어진 class라고 볼 수 있습니다.
 
-static, final 메소드 사용 가능 여부의 차이
+✅ **static, final 메소드 사용 가능 여부의 차이**
 
 - interface - static, final 메소드를 사용할 수 없습니다.
 - abstract - static, final 메소드를 사용해도 상관 없습니다.
 
-상속하는 집합간의 연관관계
+✅ **상속하는 집합간의 연관관계**
 
 - interface - 상속하는 집합간에는 연관관계가 존재하지 않을 수 있습니다.
 - abstract - 상속하는 집합간에 연관관계가 있습니다.
 
-생성자 유무
+✅ **생성자 유무**
 
 - interface - 생성자를 가질 수 없습니다.
 - abstract - 생성자를 가질 수 있습니다.
