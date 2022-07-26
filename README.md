@@ -20,7 +20,8 @@
 * [HTTP Status Codes (401 vs 403, 4xx vs 5xx)](https://github.com/dev-seokho/TIL/blob/master/Network/HTTP_status_code.md)
 
 ## Etc
-* [Big-O 표기법이란?](https://github.com/dev-seokho/TIL/blob/master/Etc/Big-O_notation.md)
+* [Big-O 표기법이란?](https://github.com/dev-seokho/TIL/blob/master/CS/Big-O_notation.md)
+* [동기화 기법 (Mutex, Spinlock, Semaphore, Monitor)](https://github.com/dev-seokho/TIL/blob/master/CS/Synchronization_techniques.md)
 
 ## Algorithm
 * [Algorithm Study Repository](https://github.com/dev-seokho/Algorithm)
