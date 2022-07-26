@@ -19,7 +19,7 @@
 * [HTTP 메소드 종류, 특징, 멱등성, 안전한메소드](https://github.com/dev-seokho/TIL/blob/master/Network/HTTP_method.md)
 * [HTTP Status Codes (401 vs 403, 4xx vs 5xx)](https://github.com/dev-seokho/TIL/blob/master/Network/HTTP_status_code.md)
 
-## Etc
+## CS
 * [Big-O 표기법이란?](https://github.com/dev-seokho/TIL/blob/master/CS/Big-O_notation.md)
 * [스레드(or프로세스) 동기화 기법 (Mutex, Spinlock, Semaphore, Monitor)](https://github.com/dev-seokho/TIL/blob/master/CS/Synchronization_techniques.md)
 
