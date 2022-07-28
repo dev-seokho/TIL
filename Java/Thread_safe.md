@@ -114,7 +114,5 @@ ConcurrenOOO API 에는 ReentrantLock(명시적 락)이 존재합니다.
 - 아예 Read-only(불변객체)로 만들어서 공유 자원을 손대지 못하게 하거나,
 - 공유하지 않는 자원(Stack)으로만 프로그래밍을 하며 도움을 주는 클래스를 이용하는 것(ThreadLocal Class)
 
-같은 방식으로 활용한다는 생각이 들었습니다. 결국 동시성 문제를 해결하는것도 JVM의 구조와 성질을 잘 알아야 한다고 느꼈습니다.
-그리고 이러한 동시성 문제를 해결하는 것에는 뮤텍스, 세마포어, 모니터를 알아두는 것이 도움이 됐습니다. Java는 기본적으로 모니터를 가지고 있으며 synchronized 키워드도 기본적으로 모니터입니다.
-
-* [스레드(or프로세스) 동기화 기법 (Mutex, Spinlock, Semaphore, Monitor)](https://github.com/dev-seokho/TIL/blob/master/CS/Synchronization_techniques.md)
+같은 방식으로 활용한다는 생각이 들었습니다. 결국 동시성 문제를 해결하는것도 JVM의 구조와 성질을 잘 알아야 한다고 느꼈습니다.  
+그리고 이러한 동시성 문제를 해결하는 것에는 뮤텍스, 세마포어, 모니터를 알아두는 것이 도움이 됐습니다. Java는 기본적으로 모니터를 가지고 있으며 synchronized 키워드도 기본적으로 모니터입니다. ([스레드(or프로세스) 동기화 기법 (Mutex, Spinlock, Semaphore, Monitor)](https://github.com/dev-seokho/TIL/blob/master/CS/Synchronization_techniques.md))
