@@ -14,6 +14,7 @@
 * [Java에서 java.util.Stack 이 잘못된 디자인이라고 하는 이유](https://github.com/dev-seokho/TIL/blob/master/Java/Java_Stack.md)
 * [Java Reflection API](https://github.com/dev-seokho/TIL/blob/master/Java/Java_Reflection_API.md)
 * [Java thread safe](https://github.com/dev-seokho/TIL/blob/master/Java/Thread_safe.md)
+* [Java7 try-with-resource와 AutoCloseable](https://github.com/dev-seokho/TIL/blob/master/Java/Java7_try_with_resourc_AutoCloseable.md)
 
 ## Network
 * [REST API](https://github.com/dev-seokho/TIL/blob/master/Network/Rest_API.md)
