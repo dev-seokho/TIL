@@ -18,7 +18,7 @@ Stream은 생성하기(스트림 생성), 가공하기(중개 연산, 중간 연
     1. 가공된 데이터로부터 원하는 결과를 만들기 위한 최종 연산입니다.
     2. Stream의 요소들을 소모하면서 연산이 수행되기 때문에 1번만 처리 가능합니다.
 
-# Stream 예시 코드
+## Stream 예시 코드
 
 ```java
 List<String> tmp = Arrays.asList("test1", "test2", "test3", "test4");
@@ -30,7 +30,7 @@ tmp.stream().filter(x -> x.with("test")).count();
 `filter(x → x.startsWith(”test”))` 는 Stream 객체를 가공하는 중간 연산,    
 `count()` 는 Stream 객체에서 원하는 결과를 만드는 최종 연산 단계인 종료 연산 입니다.   
 
-# Stream의 중간 연산이 수행되는 시점
+## Stream의 중간 연산이 수행되는 시점
 
 중간 연산은 종료 연산이 실행되기전까지 중간 연산이 실행되지 않습니다.  
 보통 이러한 성질을 두고 `게으른 연산(lazy한 처리)` 라고 얘기를 합니다.
