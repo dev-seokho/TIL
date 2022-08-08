@@ -1,4 +1,4 @@
-# Optianl
+# Optional
 
 ## Java 8 Optional 은 왜 사용하는걸까요?
 
