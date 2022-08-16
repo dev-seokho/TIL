@@ -26,6 +26,8 @@
 * [TCP와 UDP](https://github.com/dev-seokho/TIL/blob/master/Network/TCP_UDP.md)
 * [Cookie vs Session](https://github.com/dev-seokho/TIL/blob/master/Network/Cookie_Session.md)
 * [Scale up vs Scale out](https://github.com/dev-seokho/TIL/blob/master/Network/ScaleUp_ScaleOut.md)
+* [세션 불일치 현상이 발생하는 이유와, 이를 해결하기 위한 방법](https://github.com/dev-seokho/TIL/blob/master/Network/Session_mismatch.md)
+
 
 ## CS
 * [스레드(or프로세스) 동기화 기법 (Mutex, Spinlock, Semaphore, Monitor)](https://github.com/dev-seokho/TIL/blob/master/CS/Synchronization_techniques.md)
