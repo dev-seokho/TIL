@@ -25,6 +25,7 @@
 * [HTTPS](https://github.com/dev-seokho/TIL/blob/master/Network/HTTPS.md)
 * [TCP와 UDP](https://github.com/dev-seokho/TIL/blob/master/Network/TCP_UDP.md)
 * [Cookie vs Session](https://github.com/dev-seokho/TIL/blob/master/Network/Cookie_Session.md)
+* [Scale up vs Scale out](https://github.com/dev-seokho/TIL/blob/master/Network/ScaleUp_ScaleOut.md)
 
 ## CS
 * [스레드(or프로세스) 동기화 기법 (Mutex, Spinlock, Semaphore, Monitor)](https://github.com/dev-seokho/TIL/blob/master/CS/Synchronization_techniques.md)
