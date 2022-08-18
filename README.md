@@ -17,6 +17,7 @@
 * [Java7 try-with-resource와 AutoCloseable](https://github.com/dev-seokho/TIL/blob/master/Java/Java7_try_with_resourc_AutoCloseable.md)
 * [Stream](https://github.com/dev-seokho/TIL/blob/master/Java/Stream.md)
 * [Optional](https://github.com/dev-seokho/TIL/blob/master/Java/Optional.md)
+* [서블릿](https://github.com/dev-seokho/TIL/blob/master/Java/Servlet.md)
 
 ## Network
 * [REST API](https://github.com/dev-seokho/TIL/blob/master/Network/Rest_API.md)
