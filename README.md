@@ -21,6 +21,9 @@
 * [JDBC](https://github.com/dev-seokho/TIL/blob/master/Java/JDBC.md)
 * [Filter vs Spring interceptor](https://github.com/dev-seokho/TIL/blob/master/Java/filter_spring_interceptor.md)
 
+## Spring
+* [@Autowired, @Resource, @Inject란? 차이는?](https://github.com/dev-seokho/TIL/blob/master/Spring/Autowired_Resource_Inject.md)
+
 ## OOP
 * [싱글톤](https://github.com/dev-seokho/TIL/blob/master/OOP/Singleton.md)
 * [DI와 의존성 주입에서 생성자 주입을 사용해야 하는 이유](https://github.com/dev-seokho/TIL/blob/master/OOP/DI.md)
