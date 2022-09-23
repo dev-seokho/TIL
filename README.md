@@ -44,6 +44,7 @@
 * [스레드(or프로세스) 동기화 기법 (Mutex, Spinlock, Semaphore, Monitor)](https://github.com/dev-seokho/TIL/blob/master/CS/Synchronization_techniques.md)
 * [CI/CD](https://github.com/dev-seokho/TIL/blob/master/CS/CI_CD.md)
 * [index](https://github.com/dev-seokho/TIL/blob/master/CS/index.md)
+* [Test code](https://github.com/dev-seokho/TIL/blob/master/CS/Test)
 
 ## Algorithm
 * [Algorithm Study Repository](https://github.com/dev-seokho/Algorithm)
