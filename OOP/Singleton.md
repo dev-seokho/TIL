@@ -67,3 +67,9 @@ public class Singleton {
 		return SingletonHolder.instance;
 		
 ```
+**🙆🏻‍♂️ Enum singleton**
+컴파일 시점에 생성되기 떄문에 Reflection 공격에 안전하다.
+
+직렬화가 자동으로 가능하다.
+
+lazy initialization이 불가능하다.
