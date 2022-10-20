@@ -28,6 +28,7 @@
 ## OOP
 * [싱글톤](https://github.com/dev-seokho/TIL/blob/master/OOP/Singleton.md)
 * [DI와 의존성 주입에서 생성자 주입을 사용해야 하는 이유](https://github.com/dev-seokho/TIL/blob/master/OOP/DI.md)
+* [SOLID] (https://github.com/dev-seokho/TIL/blob/master/OOP/SOLID.md)
 
 ## Network
 * [REST API](https://github.com/dev-seokho/TIL/blob/master/Network/Rest_API.md)
