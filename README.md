@@ -49,5 +49,8 @@
 * [index](https://github.com/dev-seokho/TIL/blob/master/CS/index.md)
 * [Test code](https://github.com/dev-seokho/TIL/blob/master/CS/Test)
 
+# DB
+* [DB 실행계획](https://github.com/dev-seokho/TIL/blob/master/DB/Explain.md)
+
 ## Algorithm
 * [Algorithm Study Repository](https://github.com/dev-seokho/Algorithm)
