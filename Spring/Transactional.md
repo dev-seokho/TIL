@@ -12,4 +12,13 @@ D : Durability(지속성) : 하나의 트랜잭션이 성공적으로 수행되�
 
 ## Transactional 격리 레벨
 
+트랜잭션 격리 수준(Isolation level)이란 동시에 여러 트랜잭션이 처리될 때, 특정 트랜잭션이 다른 트랜잭션에서 변경하거나 조회하는 데이터를 볼 수 있도록 허용할지 말지를 결정하는 것입니다. 격리 수준은 다음과 같이 크게 4가지로 정의할 수 있습니다.
+
+Read Uncommitted부터 Serializable까지 단계가 높아질 수록 강한 격리수준으로 작업속도는 느려지지만 정합성은 높아집니다.
+
+- READ UNCOMMITTED (커밋되지 않은 읽기)
+- READ COMMITTED (커밋된 읽기)
+- REPEATABLE READ (반복 가능한 읽기)
+- SERIALIZABLE (직렬화 가능)
+
 ## Transactional 전파 레벨
