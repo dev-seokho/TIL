@@ -27,6 +27,7 @@
 * [@Autowired, @Resource, @Inject란? 차이는?](https://github.com/dev-seokho/TIL/blob/master/Spring/Autowired_Resource_Inject.md)
 * [Spring bean scope](https://github.com/dev-seokho/TIL/blob/master/Spring/Spring_bean_scope.md)
 * [Spring singleton](https://github.com/dev-seokho/TIL/blob/master/Spring/Spring_singleton.md)
+* [트랜잭션](https://github.com/dev-seokho/TIL/blob/master/Spring/Transactional.md)
 
 ## OOP
 * [싱글톤](https://github.com/dev-seokho/TIL/blob/master/OOP/Singleton.md)
