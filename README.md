@@ -23,7 +23,6 @@
 
 ## Spring
 * [Spring Boot Autoconfigure](https://github.com/dev-seokho/TIL/blob/master/Spring/Spring_Boot_Autoconfigure.md)
-* [Maven vs Gradle](https://github.com/dev-seokho/TIL/blob/master/Spring/Maven_Gradle.md)
 * [@Autowired, @Resource, @Inject란? 차이는?](https://github.com/dev-seokho/TIL/blob/master/Spring/Autowired_Resource_Inject.md)
 * [Spring bean scope](https://github.com/dev-seokho/TIL/blob/master/Spring/Spring_bean_scope.md)
 * [Spring singleton](https://github.com/dev-seokho/TIL/blob/master/Spring/Spring_singleton.md)
@@ -48,11 +47,11 @@
 ## CS
 * [스레드(or프로세스) 동기화 기법 (Mutex, Spinlock, Semaphore, Monitor)](https://github.com/dev-seokho/TIL/blob/master/CS/Synchronization_techniques.md)
 * [CI/CD](https://github.com/dev-seokho/TIL/blob/master/CS/CI_CD.md)
-* [index](https://github.com/dev-seokho/TIL/blob/master/CS/index.md)
 * [Test code](https://github.com/dev-seokho/TIL/blob/master/CS/Test)
 
 # DB
 * [DB 실행계획](https://github.com/dev-seokho/TIL/blob/master/DB/Explain.md)
+* [index](https://github.com/dev-seokho/TIL/blob/master/DB/index.md)
 
 ## Algorithm
 * [Algorithm Study Repository](https://github.com/dev-seokho/Algorithm)
