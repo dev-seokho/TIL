@@ -49,9 +49,12 @@
 * [CI/CD](https://github.com/dev-seokho/TIL/blob/master/CS/CI_CD.md)
 * [Test code](https://github.com/dev-seokho/TIL/blob/master/CS/Test)
 
-# DB
+## DB
 * [DB 실행계획](https://github.com/dev-seokho/TIL/blob/master/DB/Explain.md)
 * [index](https://github.com/dev-seokho/TIL/blob/master/DB/index.md)
+
+## ETC
+* [github, gitlab](https://github.com/dev-seokho/TIL/blob/master/DB/github_gitlab.md)
 
 ## Algorithm
 * [Algorithm Study Repository](https://github.com/dev-seokho/Algorithm)
