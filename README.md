@@ -27,6 +27,7 @@
 * [Spring bean scope](https://github.com/dev-seokho/TIL/blob/master/Spring/Spring_bean_scope.md)
 * [Spring singleton](https://github.com/dev-seokho/TIL/blob/master/Spring/Spring_singleton.md)
 * [트랜잭션](https://github.com/dev-seokho/TIL/blob/master/Spring/Transactional.md)
+* [로깅과 Slf4j vs Log4j](https://github.com/dev-seokho/TIL/blob/master/Spring/Logging.md)
 
 ## OOP
 * [싱글톤](https://github.com/dev-seokho/TIL/blob/master/OOP/Singleton.md)
