@@ -57,6 +57,7 @@
 ## Cloud
 * [Bastion Host](https://github.com/dev-seokho/TIL/blob/master/Cloud/Bastion_Host.md)
 * [VPN](https://github.com/dev-seokho/TIL/blob/master/Cloud/VPN.md)
+* [EC2](https://github.com/dev-seokho/TIL/blob/master/Cloud/EC2.md)
 
 ## ETC
 * [github, gitlab](https://github.com/dev-seokho/TIL/blob/master/DB/github_gitlab.md)
